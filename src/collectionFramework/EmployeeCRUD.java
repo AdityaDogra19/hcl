@@ -25,9 +25,9 @@ public class EmployeeCRUD {
         ArrayList<Employee> employees = new ArrayList<>();
 
         // CREATE
-        employees.add(new Employee(103, "Aman", 40000));
-        employees.add(new Employee(101, "Rahul", 30000));
-        employees.add(new Employee(102, "Priya", 35000));
+        employee.add(new Employee(103, "Aman", 40000));
+        employee.add(new Employee(101, "Rahul", 30000));
+        employee.add(new Employee(102, "Priya", 35000));
 
         // READ using Iterator
         System.out.println("Employees using Iterator:");
